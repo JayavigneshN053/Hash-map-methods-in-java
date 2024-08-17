@@ -1,0 +1,17 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		HashMap<Integer,String>obj4=new HashMap<>();
+		HashMap<Integer,String>obj1=new HashMap<>();
+		HashMap<Integer,String>obj2=new HashMap<>();
+		HashMap<Integer,String>obj3=new HashMap<>();
+		obj1.put(1,"one");
+		obj2.put(2,"two");
+		obj3.put(3,"three");
+		obj4.put(4,"four");
+		obj1.replace(1,"five");
+		System.out.print(obj1.remove(1));
+		
+	}
+}
